@@ -7,8 +7,8 @@ import java.io.InputStreamReader;
 //시간초과
 public class Main4134 {
 
-    static int t; //num의 최댓값이 4십억이므로, int가능, t(테스트의 개수) -> 범위가 나와있지 않으므로 pass
-    static double n;
+    static int t; //t(테스트의 개수) -> 범위가 나와있지 않으므로 pass
+    static double n; //n의 최댓값이 4십억이므로, int불가능(2^30 = 십억)
     static StringBuilder sb = new StringBuilder();
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
