@@ -1,4 +1,4 @@
-package baekjun.BackTrack;
+package baekjun.src.baekjun.BackTrack;
 //구현 성공
 import java.io.BufferedReader;
 import java.io.IOException;

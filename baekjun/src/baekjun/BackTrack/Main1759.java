@@ -1,4 +1,4 @@
-package baekjun.BackTrack;
+package baekjun.src.baekjun.BackTrack;
 
 //https://kwoncorin.tistory.com/103참조, 처음 문자 받을 때 블로그와 다른데, 블로그 방식도 익혀보기 --> 진행해야함! (Main175902)
 //[a,c,i,s,t,w]
