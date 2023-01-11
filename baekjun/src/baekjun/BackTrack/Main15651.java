@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
-////실패 -> 1565102에서 답 확인 가능
+///////실패 -> 1565102에서 답 확인 가능
 public class Main15651 {
 	
 	public static String[] st;

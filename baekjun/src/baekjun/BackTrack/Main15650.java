@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//강의보기전 구현 성공
+///강의보기전 구현 성공
 public class Main15650 {
 	
 	public static int N,M;
