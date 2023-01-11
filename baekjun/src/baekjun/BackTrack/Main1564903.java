@@ -1,4 +1,4 @@
-package baekjun.BackTrack;
+package baekjun.src.baekjun.BackTrack;
 
 import java.io.BufferedReader;
 import java.io.IOException;
