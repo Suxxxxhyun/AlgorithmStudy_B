@@ -1,6 +1,6 @@
 package baekjun.BackTrack;
 
-//Á¤¼ö¸¦ Á¤¼ö·Î ³ª´©´Â °æ¿ì -> ¾Ë¾Æ¼­ ¸ò¸¸ ÃëÇÏ°Ô µÊ
+//ì •ìˆ˜ë¥¼ ì •ìˆ˜ë¡œ ë‚˜ëˆ„ëŠ” ê²½ìš° -> ì•Œì•„ì„œ ëª«ë§Œ ì·¨í•˜ê²Œ ë¨
 public class Main14888Test {
 
 	public static void main(String[] args) {

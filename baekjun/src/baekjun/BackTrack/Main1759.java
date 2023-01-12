@@ -1,6 +1,6 @@
 package baekjun.src.baekjun.BackTrack;
 
-//https://kwoncorin.tistory.com/103ÂüÁ¶, Ã³À½ ¹®ÀÚ ¹ÞÀ» ¶§ ºí·Î±×¿Í ´Ù¸¥µ¥, ºí·Î±× ¹æ½Äµµ ÀÍÇôº¸±â --> ÁøÇàÇØ¾ßÇÔ! (Main175902)
+//https://kwoncorin.tistory.com/103ì°¸ì¡°, ì²˜ìŒ ë¬¸ìž ë°›ì„ ë•Œ ë¸”ë¡œê·¸ì™€ ë‹¤ë¥¸ë°, ë¸”ë¡œê·¸ ë°©ì‹ë„ ìµí˜€ë³´ê¸° --> ì§„í–‰í•´ì•¼í•¨! (Main175902)
 //[a,c,i,s,t,w]
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -23,7 +23,7 @@ public class Main1759 {
 		for (int i = x; i < C; i++) {
             code[idx] = arr[i];
             backTrackFunc(i+1, idx + 1);
-            //¾î¶»°Ô dfs°¡ ½ÇÇàµÇ°í ÀÖ´ÂÁö Ãâ·ÂÇØº¸±â À§ÇÑ ¹Ýº¹¹®
+            //ì–´ë–»ê²Œ dfsê°€ ì‹¤í–‰ë˜ê³  ìžˆëŠ”ì§€ ì¶œë ¥í•´ë³´ê¸° ìœ„í•œ ë°˜ë³µë¬¸
             for(int j=0; j<code.length; j++) {
             	System.out.print(code[j] + " ");
             }
@@ -51,7 +51,7 @@ public class Main1759 {
 			j++;
 		}
 		
-		//¹Ì¸® Á¤·ÄÇØÁÜÀ¸·Î ³ªÁß¿¡ ±»ÀÌ Á¤·ÄÇÒ ÇÊ¿ä°¡ ¾ø°ÔµÊ.
+		//ë¯¸ë¦¬ ì •ë ¬í•´ì¤Œìœ¼ë¡œ ë‚˜ì¤‘ì— êµ³ì´ ì •ë ¬í•  í•„ìš”ê°€ ì—†ê²Œë¨.
 		Arrays.sort(arr);
 		
 		backTrackFunc(0,0);

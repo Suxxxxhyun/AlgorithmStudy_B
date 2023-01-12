@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 //https://we1cometomeanings.tistory.com/266
-//ºÎºÐ ¼ö¿­ - ºÎºÐ ÁýÇÕ
+//ë¶€ë¶„ ìˆ˜ì—´ - ë¶€ë¶„ ì§‘í•©
 
 public class Main1182 {
 	
