@@ -133,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673568855654</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="패키지명(baekjun.src.baekjun.폴더명으로)변경">
+      <created>1673575679583</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1673575679583</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
