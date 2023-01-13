@@ -48,7 +48,7 @@ public class Main280503 {
         a = new int[n+1];
 
         st = new StringTokenizer(br.readLine(), " ");
-        for(int i=0; i<n; i++) {
+        for(int i=1; i<=n; i++) {
             int height = Integer.parseInt(st.nextToken());
             a[i] = height;
         }

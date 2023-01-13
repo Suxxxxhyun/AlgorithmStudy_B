@@ -62,7 +62,7 @@
     ]
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Main280503">
     <configuration name="Main2470" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="baekjun.src.baekjun.BinarySearch.Main2470" />
       <module name="baekjun" />
@@ -76,8 +76,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Main280503" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="baekjun.src.baekjun.BinarySearch.Main280503" />
+      <module name="baekjun" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="baekjun.src.baekjun.BinarySearch.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main280503" />
         <item itemvalue="Application.Main2470" />
       </list>
     </recent_temporary>
@@ -140,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673575679583</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Main280503(호석님코드)">
+      <created>1673578209450</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1673578209450</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -148,6 +169,7 @@
     <MESSAGE value="bj.1697(fail)" />
     <MESSAGE value="bj.2470(fail)" />
     <MESSAGE value="패키지명(baekjun.src.baekjun.폴더명으로)변경" />
-    <option name="LAST_COMMIT_MESSAGE" value="패키지명(baekjun.src.baekjun.폴더명으로)변경" />
+    <MESSAGE value="Main280503(호석님코드)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Main280503(호석님코드)" />
   </component>
 </project>
