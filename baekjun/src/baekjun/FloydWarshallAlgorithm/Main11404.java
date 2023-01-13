@@ -1,4 +1,4 @@
-package baekjun.FloydWarshallAlgorithm;
+package baekjun.src.baekjun.FloydWarshallAlgorithm;
 
 import java.io.BufferedReader;
 import java.io.IOException;

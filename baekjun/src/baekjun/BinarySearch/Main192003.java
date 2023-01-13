@@ -1,4 +1,4 @@
-package baekjun.BinarySearch;
+package baekjun.src.baekjun.BinarySearch;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;

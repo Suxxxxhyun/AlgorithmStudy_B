@@ -1,4 +1,4 @@
-package baekjun.greedy;
+package baekjun.src.baekjun.greedy;
 
 public class Main1213Test {
 	

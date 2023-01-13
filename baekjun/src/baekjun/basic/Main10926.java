@@ -1,4 +1,4 @@
-package baekjun.basic;
+package baekjun.src.baekjun.basic;
 
 import java.util.Scanner;
 

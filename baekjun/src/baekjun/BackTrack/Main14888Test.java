@@ -1,4 +1,4 @@
-package baekjun.BackTrack;
+package baekjun.src.baekjun.BackTrack;
 
 //정수를 정수로 나누는 경우 -> 알아서 몫만 취하게 됨
 public class Main14888Test {

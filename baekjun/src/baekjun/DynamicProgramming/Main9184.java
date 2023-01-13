@@ -1,4 +1,4 @@
-package baekjun.DynamicProgramming;
+package baekjun.src.baekjun.DynamicProgramming;
 
 import java.io.BufferedReader;
 import java.io.IOException;

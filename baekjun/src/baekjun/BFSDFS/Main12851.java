@@ -1,4 +1,4 @@
-package src.baekjun.BFSDFS;
+package baekjun.src.baekjun.BFSDFS;
 
 import java.io.BufferedReader;
 import java.io.IOException;
