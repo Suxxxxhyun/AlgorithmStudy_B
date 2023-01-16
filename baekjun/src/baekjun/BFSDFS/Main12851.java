@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
-//블로그 https://www.acmicpc.net/problem/12851참조
+//블로그 https://bcp0109.tistory.com/154참조
 //구현 실패
 //n과 k의 최댓값이 10만이므로 int가능
 //수빈이가 0, 동생은 10만의 위치에 있다고 한다면(혹은 그 반대)
