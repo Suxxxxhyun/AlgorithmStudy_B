@@ -42,7 +42,7 @@ public class Main1806 {
             // [L ... R] 의 합, 즉 sum이 조건을 만족하면 정답 갱신하기
             if (sum >= s)
                 ans = Math.min(ans, R - L + 1);
-            System.out.println("L : " + L + ", R : " + R + ",ans : " + ans);
+            //System.out.println("L : " + L + ", R : " + R + ",ans : " + ans);
         }
 
         // ans 값을 보고 불가능 판단하기
