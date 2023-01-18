@@ -37,6 +37,8 @@ public class Main2470 {
 
     static void pro() {
         // A 에 대해 이분 탐색을 할 예정이니까, 정렬을 미리 해주자.
+        //Array.sort메서드의 1번부터 n까지, 애초에 Arrays.sort메서드에서 fromIndex와 toIndex는
+        //1부터 N까지를 정렬하고 싶다면, 파라미터에 각각, 1, N+1로 작성해야함.
         Arrays.sort(A, 1, N + 1);
 
         int best_sum = Integer.MAX_VALUE;
