@@ -42,7 +42,7 @@ public class Main15565 {
                 }
             }
             if(cnt == k){
-                System.out.println(L + "," + R);
+                //System.out.println(L + "," + R);
                 ans = Math.min(ans, (R - 1) - L + 1);
                 if(a[L] == 1){
                     cnt -= 1;
