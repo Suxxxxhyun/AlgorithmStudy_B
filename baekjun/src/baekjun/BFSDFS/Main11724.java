@@ -28,7 +28,7 @@ public class Main11724 {
             graph.get(a).add(b);
             graph.get(b).add(a);
         }
-        System.out.println(graph);
+        //System.out.println(graph);
         for(int i=1; i<=n; i++){
             if(dfs(i)){
                 cnt += 1;
