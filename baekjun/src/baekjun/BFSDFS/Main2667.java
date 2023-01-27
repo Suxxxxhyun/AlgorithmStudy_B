@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Collections;
 
+//구현 성공
 public class Main2667 {
 
     static int n, cnt, h;
