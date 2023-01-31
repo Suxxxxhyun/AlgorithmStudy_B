@@ -36,7 +36,9 @@ public class Main251203 {
 
     static void pro() {
         int L = 0, R = 0, ans = 0;
-        for (int i = 1; i <= N; i++) R = Math.max(R, A[i]);
+        for (int i = 1; i <= N; i++) {
+            R = Math.max(R, A[i]);
+        }
         // [L ... R] 범위 안에 정답이 존재한다!
         // 이분 탐색과 determination 문제를 이용해서 answer를 빠르게 구하자!
         while (L <= R) {
