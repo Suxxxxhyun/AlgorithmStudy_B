@@ -17,7 +17,7 @@ public class Main1946 {
 	
 	public static int t, n, count;
 	public static StringTokenizer st;
-	public static int[] arr, pivot;
+	public static int[] arr;
 	public static StringBuilder sb = new StringBuilder();
 
 	public static void main(String[] args) throws IOException{
@@ -29,7 +29,6 @@ public class Main1946 {
 			count = 0;
 			n = Integer.parseInt(br.readLine());
 			arr = new int[n+1];
-			pivot = new int[n+1];
 			
 			for(int j=1; j<=n; j++) {
 				st = new StringTokenizer(br.readLine(), " ");
