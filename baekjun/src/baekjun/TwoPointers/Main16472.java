@@ -6,6 +6,10 @@ import java.io.InputStreamReader;
 
 //구현 실패
 //kind를 O(1)로 계산하는 코드
+/*
+R : 인식하고 싶은 구간의 오른쪽 끝
+L : 인식 가능한 가장 왼쪽 위치
+ */
 public class Main16472 {
 
     static int n, kind;
