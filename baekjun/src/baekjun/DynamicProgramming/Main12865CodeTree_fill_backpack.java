@@ -1,39 +1,12 @@
 package baekjun.src.baekjun.DynamicProgramming;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.Scanner;
-import java.util.StringTokenizer;
 
-/*
-[그리디하게 풀기 힘든 이유]
-1. 무게가 작은순으로 넣어보기
-2. 가치가 큰 순으로 넣어보기
-
-두가지 방법 모두 힘든 이유 >> 무게의 제한이 10kg라고 할때,
-1. 일단 첫번째 방법으로 하면 안되는 이유
-예시가 (1kg,가치1),(2kg,가치1),(3kg,가치2),(4kg,가치2)와 같을때,
-가치의 합은 6이며, 총 무게는 10kg.
-이 상황에서 마지막에 예시(5kg,가치10)가 있었다면,
-마지막 예시가 더 좋다는 것을 알 수 있다. => 따라서 첫번째 그리디 방법 불가능
-
-2. 두번째 방법으로 하면 안되는 이유
-(10kg,가치10), (1kg,가치9), (2kg,가치5)
-첫번째만 우선으로 생각하면, 무게 10kg를 만족하므로, 가치10이지만,
-두번째와 세번째를 넣으면, 총무게 3kg, 가치14이므로,
-두번째와 세번째를 넣을때가 더 좋다는 것을 알 수 있다.
-
-결국엔, 모든 경우의 수를 고려해야되는 것을 알 수 있다.
-이때 모든 경우의 수라는 것은 물건1,물건2,물건3,물건4.. 물건이 n개 있을때,
-물건1이 포함되는 경우, 포함되지 않는 경우 -> 2가지
-2 * 2 * 2 * ... 2 -> 2^n의 경우의 수를 모두 고려해야한다.
- */
-public class Main12865 {
-
+//codeTree - 배낭채우기
+//코드트리에서는 배낭의 개수n을 100, 넣을 수 있는 무게의 최댓값을 10000으로 문제를 제시함.
+public class Main12865CodeTree_fill_backpack {
     public static final int INT_MIN = Integer.MIN_VALUE;
-    public static final int MAX_M = 100000;
+    public static final int MAX_M = 10000;
     public static final int MAX_N = 100;
 
     // dp[i][j] : 지금까지 i번째 보석까지 고려해봤고,
@@ -74,6 +47,7 @@ public class Main12865 {
 
         initialize();
 
+        //dp[i][j]에 대한 정의임!
         // 지금까지 i번째 보석까지 고려해봤고,
         // 지금까지 고른 보석 무게의 합이 j였을 때
         // 얻을 수 있는 최대 가치를 계산합니다.
@@ -103,6 +77,10 @@ public class Main12865 {
                     // j < weight[i]인 경우에는, Case 2만 가능합니다.
                 else
                     dp[i][j] = dp[i - 1][j];
+
+                //j < weight[i]라면, j-weight[i] < 0이게 되고,
+                //75줄, Math.max에서 j - weight[i]가 곧 음수인덱스가 되므로, 이 경우에는 그냥, dp[i][j] = dp[i - 1][j];이렇게 하자는 것.
+                //논리적으로는, 총 무게가 j인 상황을 보고있는데 이거보다 무거운 보석을 담으면, 무거운 보석을 당연히 담을 수 없으니 dp[i][j] = dp[i - 1][j];이렇게 하고 있는 상황임!
             }
         }
 
@@ -117,5 +95,4 @@ public class Main12865 {
 
         System.out.print(ans);
     }
-
 }
