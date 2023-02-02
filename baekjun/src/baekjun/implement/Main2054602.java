@@ -50,10 +50,10 @@ public class Main2054602 {
         int lmoney = money;
         int upCount = 0;
         int downCount = 0;
-        int yesterday = chart[0];
 
         for(int i = 1; i < 14; i++) {
             int today = chart[i];
+            int yesterday = chart[i-1];
 
             if(today > yesterday) {
                 upCount++;
