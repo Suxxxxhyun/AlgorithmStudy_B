@@ -48,6 +48,8 @@ public class Main2644 {
 
         for(int i=0; i<graph.get(start).size(); i++){
             if(visited[graph.get(start).get(i)] == 0){
+                //파라미터로 cnt++을 해주면 안되는 이유 : dfs(graph.get(start).get(i), end, cnt++); 이라고 한다면
+                //dfs(graph.get(start).get(i), end, cnt++); << 이 함수가 다 종료되고 그제서야 cnt값이 증가되기때문에, cnt + 1로 해줘야함
                 dfs(graph.get(start).get(i), end, cnt+1);
             }
         }
