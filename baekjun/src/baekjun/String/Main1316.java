@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//구현 성공
+//구현 성공(제한시간 내에는 풀지 못했음)
 public class Main1316 {
 
     static int n, cnt;
