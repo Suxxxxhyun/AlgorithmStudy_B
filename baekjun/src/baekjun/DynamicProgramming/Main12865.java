@@ -116,6 +116,10 @@ public class Main12865 {
             ans = Math.max(ans, dp[n][j]);
 
         System.out.print(ans);
+
+        //113~115라인을 반드시 해줘야하는 이유는, k가 10kg이라고한다면
+        //예를 들어 보석A(8kg,가치8), 보석B(7kg,가치6), 보석C(6kg,가치9)
+        //이때, 무게가 6kg일때의 가치가 가장 높기 때문이다.
     }
 
 }
