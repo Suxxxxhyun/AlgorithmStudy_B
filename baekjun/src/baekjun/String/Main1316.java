@@ -26,9 +26,10 @@ public class Main1316 {
     static boolean pro(String x){
 
         for(int i=0; i<x.length()-1; i++){
-            if(x.charAt(i) == x.charAt(i+1)){
+            /*if(x.charAt(i) == x.charAt(i+1)){
                 a[x.charAt(i) - 'a'] = 1;
-            } else {
+            } else */
+            if(x.charAt(i) != x.charAt(i+1)){
                 if(a[x.charAt(i+1) - 'a'] != 0){
                     return false;
                 }
