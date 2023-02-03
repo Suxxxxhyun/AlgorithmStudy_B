@@ -28,7 +28,7 @@ public class Main1316 {
         for(int i=0; i<x.length()-1; i++){
             /*if(x.charAt(i) == x.charAt(i+1)){
                 a[x.charAt(i) - 'a'] = 1;
-            } else */
+            } else -- 굳이 비교할 필요가 없음 */
             if(x.charAt(i) != x.charAt(i+1)){
                 if(a[x.charAt(i+1) - 'a'] != 0){
                     return false;
