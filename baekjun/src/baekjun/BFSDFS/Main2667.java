@@ -7,6 +7,12 @@ import java.util.ArrayList;
 import java.util.Collections;
 
 //구현 성공
+//인접행렬로 구현한 것이 아닌이유
+//인접행렬(i,j)는 정점 i와 정점 j의 연결관계를 나타내는것인데,
+//미로탐색에서의 (i,j)는 하나의 정점을 나타내는 것일 뿐, 정점 i와 정점 j의 연결관계가 아님!
+//그럼 인접리스트인 이유는?
+//한 정점에서 모든 정점을 확인하는 것이 아닌, 갈 수있는 정점만 확인하는 것이기때문에,
+//내 코드는 인접리스트임.
 public class Main2667 {
 
     static int n, cnt, h;
