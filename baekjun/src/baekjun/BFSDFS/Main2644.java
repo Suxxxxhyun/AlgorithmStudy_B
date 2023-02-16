@@ -33,6 +33,10 @@ public class Main2644 {
             graph.get(d).add(c);
         }
 
+        /*for(int i=1; i<=n; i++){
+            System.out.print(graph.get(i) + " ");
+        }*/
+
         dfs(a, b, 0);
         System.out.println(res);
     }
