@@ -1,6 +1,7 @@
 package baekjun.src.baekjun.implement;
 
 import java.io.*;
+//https://velog.io/@jh5253/%EB%B0%B1%EC%A4%80-20164-%ED%99%80%EC%88%98-%ED%99%80%EB%A6%AD-%ED%98%B8%EC%84%9DJava%EC%9E%90%EB%B0%94블로그 참조
 public class Main20164 {
 
     static int n, min = Integer.MAX_VALUE, max = Integer.MIN_VALUE;
