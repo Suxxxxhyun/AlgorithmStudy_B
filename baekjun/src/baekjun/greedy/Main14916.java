@@ -1,6 +1,7 @@
 package baekjun.src.baekjun.greedy;
 
 import java.io.*;
+//https://hidelookit.tistory.com/138블로그 참조
 public class Main14916 {
 
     static int n,cnt;
