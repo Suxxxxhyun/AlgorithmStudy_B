@@ -27,6 +27,7 @@ public class Main16926 {
     }
 
     static void pro(){
+        //의문점1. count는 왜 아래와 같이 계산을 하고 있을까?
         int count = Math.min(n,m) / 2; //돌아가는 라인의 수
         for(int i=0; i<r; i++){
             for(int j=0; j<count; j++){ //라인들 전부 돌리기
