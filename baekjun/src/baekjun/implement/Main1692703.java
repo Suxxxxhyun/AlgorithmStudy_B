@@ -4,6 +4,8 @@ import java.util.*;
 import java.io.*;
 
 //10:47 ~ 11:15
+//https://velog.io/@yoonuk/%EB%B0%B1%EC%A4%80-16927-%EB%B0%B0%EC%97%B4-%EB%8F%8C%EB%A6%AC%EA%B8%B0-2-Java%EC%9E%90%EB%B0%94
+
 public class Main1692703 {
 
     static int N, M, R;
