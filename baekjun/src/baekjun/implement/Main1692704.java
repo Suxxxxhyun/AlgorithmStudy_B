@@ -33,10 +33,10 @@ public class Main1692704 {
     static void pro() {
         //line_cnt = 돌려야하는 라인의 개수
         int line_cnt = Math.min(n,m) / 2;
+        int row = n;
+        int col = m;
         for(int i=0; i<line_cnt; i++) {
 
-            int row = n;
-            int col = m;
             rotate(i, row * 2 + col * 2 - 4);
             row -= 2;
             col -= 2;
@@ -53,11 +53,12 @@ public class Main1692704 {
     static void rotate(int start, int cnt) {
         int count = r % cnt;
 
+        int x = start;
+        int y = start;
+
         for(int i=0; i<count; i++) {
 
             int idx = 0;
-            int x = start;
-            int y = start;
             int value = map[start][start];
 
             while(idx < 4) {
@@ -73,13 +74,13 @@ public class Main1692704 {
                 }
             }
             map[start + 1][start] = value;
-            for(int k=0; k<n; k++) {
+            /*for(int k=0; k<n; k++) {
                 for(int j=0; j<m; j++) {
                     System.out.print(map[k][j] + " ");
                 }
                 System.out.println();
             }
-            System.out.println("=================");
+            System.out.println("=================");*/
         }
     }
 
