@@ -54,10 +54,11 @@ public class Main2308302 {
         }
 
         if (y % 2 == 0) {
-            //dp[x][y] = (Count(x - 1, y) + Count(x, y - 1) + Count(x + 1, y - 1)) % Mod;
-            dp[x][y] = ((Count(x - 1, y) + Count(x, y - 1)) % Mod + Count(x + 1, y - 1)) % Mod;
+            dp[x][y] = (Count(x - 1, y) + Count(x, y - 1) + Count(x + 1, y - 1)) % Mod;
+            //dp[x][y] = ((Count(x - 1, y) + Count(x, y - 1)) % Mod + Count(x + 1, y - 1)) % Mod; -> 이렇게 바꾸어주면 int로 할 수 있음.
         } else {
-            dp[x][y] = ((Count(x - 1, y) + Count(x - 1, y - 1)) % Mod + Count(x, y - 1)) % Mod;
+            dp[x][y] = (Count(x - 1, y) + Count(x - 1, y - 1) + Count(x, y - 1)) % Mod;
+            //dp[x][y] = ((Count(x - 1, y) + Count(x - 1, y - 1)) % Mod + Count(x, y - 1)) % Mod;
         }
 
         return dp[x][y];
