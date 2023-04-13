@@ -32,12 +32,12 @@ public class Main2308302 {
         }
 
         System.out.println(Count(N, M));
-        /*for (int i = 1; i <= N; i++) {
+        for (int i = 1; i <= N; i++) {
             for (int j = 1; j <= M; j++) {
                 System.out.print(dp[i][j] + " ");
             }
             System.out.println();
-        }*/
+        }
     }
 
     static long Count(int x, int y) {
@@ -54,9 +54,10 @@ public class Main2308302 {
         }
 
         if (y % 2 == 0) {
-            dp[x][y] = (Count(x - 1, y) + Count(x, y - 1) + Count(x + 1, y - 1)) % Mod;
+            //dp[x][y] = (Count(x - 1, y) + Count(x, y - 1) + Count(x + 1, y - 1)) % Mod;
+            dp[x][y] = ((Count(x - 1, y) + Count(x, y - 1)) % Mod + Count(x + 1, y - 1)) % Mod;
         } else {
-            dp[x][y] = (Count(x - 1, y) + Count(x - 1, y - 1) + Count(x, y - 1)) % Mod;
+            dp[x][y] = ((Count(x - 1, y) + Count(x - 1, y - 1)) % Mod + Count(x, y - 1)) % Mod;
         }
 
         return dp[x][y];
