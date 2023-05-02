@@ -3,7 +3,7 @@ package baekjun.src.baekjun.BFSDFS;
 //2:44 ~ 3:15
 import java.io.*;
 import java.util.*;
-public class Main1962 {
+public class Main1926 {
 
     static int n,m, cnt, count;
     static StringTokenizer st;
